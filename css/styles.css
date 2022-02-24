@@ -5,9 +5,19 @@ body {
   text color: black;
   text align: center;
 }
-image {
-  float: right;
+.photo {
+  float: center;
+  background-color: black;
+  height: 10px;
+  width: 10px;
+  padding: 15px;
+  align-items: center;
 }
+.boxing {
+  padding: 6px;
+  margin: 20px;
+}
+/* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
 }
