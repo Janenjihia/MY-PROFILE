@@ -1,3 +1,16 @@
 body {
   background-color: rgb(155, 155, 228);
 }
+.important {
+  text color: black;
+  text align: center;
+}
+image {
+  float: right;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
